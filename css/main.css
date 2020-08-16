@@ -33,10 +33,10 @@ p {
     font-size: 1.25em;
     line-height: 1.4em;
     font-family:'Arial', 'Helvetica', 'Sans-Serif';
+    color: #666666;
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 
