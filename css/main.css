@@ -1,60 +1,58 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    padding: 10px;
-}
-ul li { padding: 10px}
-li {
-	font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    display: inline;
-}
-a {
-    text-decoration: none;
-    color: #ffb3b3;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    font-weight: bold;
-}
-h2 {
-    font-size: 2em;
-    font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    font-weight: 'bold'
-}
-h3 {
-    font-size: 1.4em;
-    font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    font-weight: 'bold';
-    color: #666666;
-}
-p {
-    font-size: 1.25em;
-    line-height: 1.4em;
-    font-family:'Arial', 'Helvetica', 'Sans-Serif';
-    color: #666666;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+   body {
+   	margin: 60px auto;
+   	width: 70%;
+   }
+   .centered {
+   	display: flex;align-items: center;justify-content: center;flex-direction: column; width: 100%; text-align: center; margin: 10% 0; min-height: 200px;
+   }
+   nav ul, footer ul {
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	padding: 0px;
+   	list-style: none;
+   	font-weight: bold;
+   	padding: 10px;
+   }
+   ul li { padding: 10px}
+   li {
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	padding: 0px;
+   	list-style: none;
+   	font-weight: bold;
+   	display: inline;
+   }
+   a {
+   	text-decoration: none;
+   	color: #ffb3b3;
+   }
+   a:hover {
+   	text-decoration: underline;
+   }
+   h1 {
+   	font-size: 3em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	font-weight: bold;
+   }
+   h2 {
+   	font-size: 2em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	font-weight: 'bold'
+   }
+   h3 {
+   	font-size: 1.4em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	font-weight: 'bold';
+   	color: #666666;
+   }
+   p {
+   	font-size: 1.25em;
+   	line-height: 1.4em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	color: #666666;
+   }
+   ul.posts { 
+   	margin: 20px auto 40px; 
+   	font-size: 1.5em;
+   }
+   ul.posts li {
+   	list-style: none;
+   }
