@@ -7,10 +7,15 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    padding: 10px;
 }
-nav ul li, footer ul li {
+ul li { padding: 10px}
+li {
+	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
     display: inline;
-    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -28,6 +33,12 @@ h2 {
     font-size: 2em;
     font-family:'Arial', 'Helvetica', 'Sans-Serif';
     font-weight: 'bold'
+}
+h3 {
+    font-size: 1.4em;
+    font-family:'Arial', 'Helvetica', 'Sans-Serif';
+    font-weight: 'bold';
+    color: #666666;
 }
 p {
     font-size: 1.25em;
