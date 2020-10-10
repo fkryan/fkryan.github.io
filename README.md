@@ -1,2 +1,2 @@
 # fkryan.github.io
-The one where I attempt web dev and consequently struggle
+PlEASE do not look at the source code web development is not one of my strengths
