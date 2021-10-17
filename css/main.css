@@ -22,6 +22,9 @@
    }
    a {
    	text-decoration: none;
+      font-size: 1.25em;
+   	line-height: 1.4em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	color: #ffb3b3;
    }
    a:hover {
