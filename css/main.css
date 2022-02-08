@@ -24,10 +24,21 @@
    	text-decoration: none;
    	line-height: 1.4em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
-   	color: #ffb3b3;
+   	color: #84bcbd;
    }
    a:hover {
    	text-decoration: underline;
+   }
+   ab {
+   	text-decoration: none;
+   	line-height: 1.4em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+    font-weight: bold;
+   	color: #84bcbd;
+   }
+   ab:hover {
+   	text-decoration: underline;
+    font-weight:bold;
    }
    h1 {
    	font-size: 3em;
@@ -50,6 +61,19 @@
    	line-height: 1.4em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	color: #666666;
+   }
+   authors {
+   	font-size: 0.9em;
+   	line-height: 0.5em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	color: #666666;
+   }
+   conf {
+   	font-size: 0.9em;
+   	line-height: 0.5em;
+   	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+   	color: #666666;
+    font-style:italic
    }
    ul.posts { 
    	margin: 20px auto 40px; 
