@@ -1,0 +1,148 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Egocentric Auditory Attention Localization in Conversations</title>
+<!-- <meta name="author" content="Fiona Ryan>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta property="og:site_name" content="Fiona Ryan" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Fiona Ryan"/>
+<meta property="og:url" content="https://fkryan.github.io/"/>
+<meta property="og:description" content="PhD Student"/> -->
+<link rel="stylesheet" type="text/css" href="./css/proj.css">
+<link rel="icon" type="image/png" href="assets/gt-logo.png">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    menuSettings: {zoom: "Double-Click", zscale: "300%"},
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+    MathMenu: {showRenderer: false},
+    "HTML-CSS": {
+        availableFonts: ["TeX"],
+        preferredFont: "TeX",
+        imageFont: null
+    }
+  });
+</script>
+<!-- <style type="text/css">
+    body { background-color: White; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif; width:900px; margin:0 auto;}
+    h1 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 27px; }
+    h2 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 22px}
+    h4 { color: black; font-family:  Helvetica, Futura, "Trebuchet MS", sans-serif; font-size: 15px; font-weight:normal}
+    p { color: black; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif;}
+</style> -->
+</head>
+
+<body><div id="header" class="header" align="center">
+<h1>Egocentric Auditory Attention Localization in Conversations </h1>
+</body>
+
+
+<body id="Home">
+  <header id="nav-wrapper">
+  </header>
+  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:95%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:7.5%;width:63%;vertical-align:middle">
+              <p style="text-align-last:justify">
+              <a href="https://fkryan.github.io/">Fiona Ryan</a><sup>1,2</sup>&nbsp&nbsp&nbsp&nbsp
+              <a href="http://www.hao-jiang.net/">Hao Jiang</a><sup>2</sup>&nbsp&nbsp&nbsp
+              <a href="https://abhinav95.github.io/">Abhinav Shukla<sup>2</sup></a>&nbsp&nbsp&nbsp
+              <a href="https://rehg.org/">James M. Rehg</a><sup>1,2</sup>&nbsp&nbsp&nbsp
+              <a href="https://www.vamsiithapu.com/">Vamsi Krishna Ithapu</a><sup>2</sup>
+            </p>
+            <!-- <p style="text-align:center">Georgia Institute of Technology, Atlanta, United States</p> -->
+            </td>
+          </tr>
+        </tbody></table>
+        <div style="width:100%;text-align:center">Georgia Institute of Technology<sup>1</sup>,&nbsp&nbsp&nbsp Meta Reality Labs Research<sup>2</sup></div>
+
+        <div class="container" style="text-align: center;">
+            <img src="./assets/saal/gt_logo.png" alt="Georgia Tech logo" style="width: 20%; height:30%;">
+            <img src="./assets/saal/meta_logo.png" alt="Meta logo" style="width: 16%; height:25%;">
+        </div>
+
+        
+        <!-- <p style="text-align:center">
+          <a href="http://fkryan.github.io" style="font-size: 24px;">[paper]</a> 
+        </p> -->
+
+        <!-- <div style="text-align: center;">
+          <img src="assets/teaser.png"  style="width:800px;height:228px;">
+        </div> -->
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle;">
+              <section id="Abstract" style="padding-top: 80px; margin-top: -80px;">
+                <h2 class="ui center aligned header" style="font-size: 1.5em; font-weight: normal; margin-bottom: 0.3em; margin-top: 0.8em;">Abstract</h2>
+                In a noisy conversation environment such as a dinner party, a person often demonstrates selective auditory attention, or the ability to focus on a particular speaker while tuning out others. Understanding who somebody is listening to in a conversation is essential for developing technologies that understand social behavior and devices that can augment human hearing by amplifying particular sound sources. The computer vision and audio research communities have made great strides towards recognizing sound sources and speakers in scenes. In this work, we take a step further by focusing on the problem of localizing auditory attention targets in egocentric video, or detecting who in a camera wearer's field of view they are listening to. To tackle the new and challenging Selective Auditory Attention Localization problem, we propose an end-to-end deep learning approach that uses egocentric video and multichannel audio to predict the heatmap of the camera wearer's auditory attention. Our approach leverages spatiotemporal audiovisual features and holistic reasoning about the scene to make predictions, and outperforms a set of baselines on a challenging multi-speaker conversation dataset. 
+                <br>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <section id="Approach" style="padding-top: 80px; margin-top: -80px;">
+              <!-- <heading><b>Approach</b></heading> -->
+              <h2 class="ui center aligned header" style="font-size: 1.5em; font-weight: normal; margin-bottom: 0.3em; margin-top: 0.8em;">Approach</h2>
+              <div style="text-align: center;">
+                <!-- <img src="assets/network.png"  style="width:800px;height:228px;"> -->
+                <img src="./assets/saal/architecture_diagram_website.png"  style="width:100%;max-width:100%">
+              </div>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <section id="Demo Video" style="padding-top: 80px; margin-top: -80px;">
+                  <h2 class="ui center aligned header" style="font-size: 1.5em; font-weight: normal; margin-bottom: 0.3em; margin-top: 0.8em;">Demo Video</h2>
+                  <video muted autoplay loop style="width:80%;vertical-align:middle;">
+                    <source src="./assets/saal/video_examples.mp4" type="video/mp4">
+                  </video>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <section id="Citation" style="padding-top: 80px; margin-top: -80px;">
+                <h2 class="ui center aligned header" style="font-size: 1.5em; font-weight: normal; margin-bottom: 0.3em; margin-top: 0.8em;">Citation</h2>
+                <p style="padding-bottom: 0.5em; overflow: auto;">If you want to cite our work, please use following BibTex:<br>
+                  <p>
+                  <code>
+                    @article{TBD}</code></p></p>
+              </td>
+            </tr>
+          </tbody></table><br>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <section id="Contact" style="padding-top: 80px; margin-top: -80px;">
+              <h2 class="ui center aligned header" style="font-size: 1.5em; font-weight: normal; margin-bottom: 0.3em; margin-top: 0.8em;">Contact</h2>
+              <ul>
+              <li>For questions about this work, please contact fkryan at gatech dot edu. </li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
