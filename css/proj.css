@@ -203,4 +203,5 @@
     display:flex;  
     gap: 5px;
     text-align:center;
+    justify-content: center;
   }
