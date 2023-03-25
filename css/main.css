@@ -12,7 +12,11 @@
    	font-weight: bold;
    	padding: 10px;
    }
-   ul li { padding: 10px}
+   ul{
+	padding-inline-start: 10px;
+
+   }
+   ul li { padding: 5px;}
    li {
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	padding: 0px;
@@ -75,6 +79,13 @@
    	color: #666666;
     font-style:italic
    }
+   paperlinks {
+	font-size: 0.9em;
+	line-height: 0.5em;
+	font-family:'Arial', 'Helvetica', 'Sans-Serif';
+	color: #666666;
+	font-style:italic
+	}
    ul.posts { 
    	margin: 20px auto 40px; 
    	font-size: 1.5em;
