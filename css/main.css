@@ -45,23 +45,23 @@
     font-weight:bold;
    }
    h1 {
-   	font-size: 3em;
+   	font-size: 2em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	font-weight: bold;
    }
    h2 {
-   	font-size: 2em;
+   	font-size: 1.5em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	font-weight: 'bold'
    }
    h3 {
-   	font-size: 1.4em;
+   	font-size: 1.17em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	font-weight: 'bold';
    	color: #666666;
    }
    p {
-   	font-size: 1.25em;
+   	font-size: 1em;
    	line-height: 1.4em;
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	color: #666666;
