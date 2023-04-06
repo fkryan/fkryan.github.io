@@ -117,3 +117,6 @@
     justify-content: left;
 	align-items:center;
   }
+  .i:hover {
+    color: red;
+}
