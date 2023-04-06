@@ -116,7 +116,15 @@
     text-align:left;
     justify-content: left;
 	align-items:center;
-  }
-  .i:hover {
-    color: red;
-}
+  	}
+    centcontainer {
+		display:flex;  
+		gap: 20px;
+		text-align:center;
+		justify-content: center;
+		align-items:center;
+	}
+	i:hover {
+		color: #dcbae8;
+	}
+
