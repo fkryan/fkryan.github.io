@@ -133,28 +133,47 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item">
-          <video poster="" id="" autoplay controls loop playsinline height="100%">
-            <source src="./static/videos/CBS_This_Morning_12407_12648_3.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item">
-          <video poster="" id="" autoplay controls loop playsinline height="100%">
-            <source src="./static/videos/It's_Always_Sunny_in_Philadelphia_25230_25410_1.mp4"
+          <video poster="" id="" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/CBS_This_Morning_12407_12648_3.mov"
                     type="video/mp4">
           </video>
         </div>
         <div class="item">
           <video poster="" id="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Jamie_Oliver_5200_5375_1.mp4"
+            <source src="./static/videos/Jamie_Oliver_725_800_0.mov"
                     type="video/mp4">
           </video>
         </div>
         <div class="item">
           <video poster="" id="" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/CBS_This_Morning_1948_2128_0.mp4"
+            <source src="./static/videos/It's_Always_Sunny_in_Philadelphia_25230_25410_1.mov"
                     type="video/mp4">
           </video>
+        </div>
+        <div class="item">
+          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/CBS_This_Morning_1948_2128_0.mov"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/MLB_Interview_18341_18942_3.mov"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Titanic_4255_4376_1.mov"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/West_World_74424_74568_2.mov"
+                    type="video/mp4">
+          </video>
+        </div>
         </div>
       </div>
     </div>
@@ -178,15 +197,28 @@
     <!--/ Abstract. -->
 
     <!-- Architecture. -->
-    <!-- <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Approach</h2>
         <div class="figure">
           <img src="./static/images/arch.png" width="90%">
         </div>
       </div>
-    </div> -->
+    </div>
+    We propose a new architecture for gaze target estimation built upon a single <i>frozen</i> DINOv2 visual encoder. Our method learns a lightweight decoder that uses a positional <i>head prompting</i> mechanism to decode the gaze for a specific person from the DINOv2 features.
     <!--/ Architecture. -->
+
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="figure">
+          <img src="./static/images/results.png" width="90%">
+        </div>
+      </div>
+    </div>
+    Our method achieves SoTA results with a single encoder, no auxiliary inputs like estimated depth/pose, and significantly fewer parameters.
+    <!--/ Results. -->
 
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
@@ -200,12 +232,19 @@
     </div> -->
     <!--/ Paper video. -->
   </div>
-</section>
-  <div class="columns is-centered has-text-centered">
-    <h2 class="title is-3">More Coming Soon!</h2>
-  </div>
 
-<section>
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Paper and Code Coming Soon!</h2>
+        <div class="content has-text-justified">
+          <p>
+            For questions, contact Fiona Ryan (fkryan at gatech dot edu)
+          </p>
+        </div>
+      </div>
+    </div>
 
 </section>
 
