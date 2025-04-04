@@ -72,7 +72,7 @@
    	font-family:'Arial', 'Helvetica', 'Sans-Serif';
    	color: #666666;
    }
-   conf {
+   .conf {
 	font-size: 0.9em;
 	line-height: 0.5em;
 	font-family: 'Arial', 'Helvetica', 'Sans-Serif';
@@ -80,7 +80,7 @@
 	font-style: italic;
   }
   
-  conf .conf-note {
+   .conf-note {
 	font-style: normal;
 	font-size: 0.85em;
 	background-color: #ffffff;
