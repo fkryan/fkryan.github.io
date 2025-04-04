@@ -77,10 +77,12 @@
 	line-height: 0.5em;
 	font-family: 'Arial', 'Helvetica', 'Sans-Serif';
 	color: #666666;
+	font-style: italic;
   }
   
    confnote {
-	font-style: italic;
+	font-style: normal;
+	font-size: 0.85em;
 	color: #0015ff;
   }
    paperlinks {
