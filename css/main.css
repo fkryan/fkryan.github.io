@@ -1,7 +1,11 @@
    body {
    	margin: 60px auto;
-   	width: 70%;
+   	width: 100%;
    }
+   .page-content {
+	margin: 0 auto;
+	width: 70%;
+	}
    .centered {
    	display: flex;align-items: center;justify-content: center;flex-direction: column; width: 100%; text-align: center; margin: 10% 0; min-height: 200px;
    }
@@ -133,4 +137,61 @@
 	i:hover {
 		color: #dcbae8;
 	}
+
+body.cat-cursor {
+  cursor: url('../images/tort.png') 24 10, auto;
+}
+
+/* .sparkle {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0%, #f0f 100%);
+  pointer-events: none;
+  animation: fadeOut 0.5s forwards;
+} */
+
+.sparkle {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  ); /* star shape */
+  pointer-events: none;
+  animation: fallAndFade 1.5s ease-out forwards;
+  opacity: 1;
+  z-index: 9999;
+}
+
+@keyframes fallAndFade {
+  to {
+    transform: translateY(60px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+#cursorToggle:hover {
+  background-color: #ecd1ff;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
 
