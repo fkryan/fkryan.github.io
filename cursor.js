@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let sparklesOn = false;
 
   toggleBtn.addEventListener('click', () => {
-    document.body.classList.toggle('cat-cursor');
-    sparklesOn = !sparklesOn;
+    sparklesOn = document.body.classList.toggle('cat-cursor');
+    toggleBtn.setAttribute('aria-pressed', sparklesOn);
   });
 
   let lastSparkleTime = 0;
